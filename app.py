@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-import panda as pd
+import pandas as pd
 
 st.title("Map")
 df=pd.DataFrame(np.random.randn(500,2)/[50,50]+[37.26,-122.4],columns=['lat','lon'])
